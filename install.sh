@@ -6,3 +6,5 @@ tar -xvf  vtm_linux_x86_64.tar
 apt install gpm lynx cmus mc aewan calcurse mutt sc-im wavemon termshark netris nsnake -y
 mkdir /etc/vtm
 cp system.xml /etc/vtm/
+sudo echo 'SUBSYSTEM=="input", KERNEL=="mice", MODE="666"' > /etc/udev/rules.d/85-vtm-mouse-access.rules
+sudo udevadm control --reload-rules && udevadm trigger
