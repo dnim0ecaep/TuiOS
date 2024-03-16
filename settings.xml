@@ -4,6 +4,7 @@
         <item*/>
         <item splitter label="Apps"/>
         <item id=term/>   <!-- title=id type=SHELL cmd=os_default_shell -->
+        <item id=term           label="Terminal"/>   <!-- title=id type=SHELL cmd=os_default_shell -->
         <item id=lynx         label="Browser"         type=SHELL    title="lynx"    param="lynx"               notes=" Browser"/>
         <item id=cmus         label="Music"         type=SHELL    title="cmus"    param="cmus"               notes=" run cmus in its own window "/>
 
