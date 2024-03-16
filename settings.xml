@@ -3,7 +3,6 @@
         <!-- <item*/> --> <!-- Clear default item list -->
         <item*/>
         <item splitter label="Apps"/>
-        <item id=term/>   <!-- title=id type=SHELL cmd=os_default_shell -->
         <item id=term           label="Terminal"/>   <!-- title=id type=SHELL cmd=os_default_shell -->
         <item id=lynx         label="Browser"         type=SHELL    title="lynx"    param="lynx"               notes=" Browser"/>
         <item id=cmus         label="Music"         type=SHELL    title="cmus"    param="cmus"               notes=" run cmus in its own window "/>
@@ -24,14 +23,14 @@
 
         <item splitter label="Stats"/>
         <item id=nmtui         label="Device Stats"         type=SHELL    title="neofetch"    param="neofetch"               notes=" run neofetch in its own window "/>
-
+        <item id=htop         label="Mem and CPU Stats"         type=SHELL    title="htop"    param="htop"               notes=" run htop in its own window "/>  
+        
         <item splitter label="Network"/>
         <item id=nmtui         label="Network Manager"         type=SHELL    title="nmtui"    param="nmtui"               notes=" run nmtui in its own window "/>
         <item id=termshark         label="Wireshark"         type=SHELL    title="termshark"    param="termshark"               notes=" shark terminal "/>
         <item id=wavemon         label="Wireless Monitor"         type=SHELL    title="wavemon"    param="wavemon"               notes=" Wireless device monitoring "/>
 
-        <item splitter label="Memory"/>
-        <item id=htop         label="Mem and CPU Stats"         type=SHELL    title="htop"    param="htop"               notes=" run htop in its own window "/>            
+
 
         <item splitter label="Drive"/>
         <item id=cfdisk         label="Disk Manager"         type=SHELL    title="cfdisk"    param="cfdisk"               notes=" run cfdisk in its own window "/>
