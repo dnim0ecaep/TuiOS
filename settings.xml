@@ -1,81 +1,47 @@
 <config>
     <menu>
-<config>
-    <menu>
         <!-- <item*/> --> <!-- Clear default item list -->
+        <item*/>
         <item splitter label="Apps"/>
-        <item id=term/>  <!-- title=id type=SHELL cmd=os_default_shell -->
-        <item id=lynx         label="lynx"         type=SHELL    title="lynx"    param="lynx"               notes=" Browser"/>
-        <item id=cmus         label="cmus"         type=SHELL    title="cmus"    param="cmus"               notes=" run cmus in its own window "/>
+        <item id=term/>   <!-- title=id type=SHELL cmd=os_default_shell -->
+        <item id=lynx         label="Browser"         type=SHELL    title="lynx"    param="lynx"               notes=" Browser"/>
+        <item id=cmus         label="Music"         type=SHELL    title="cmus"    param="cmus"               notes=" run cmus in its own window "/>
 
         <item splitter label="Editors"/>
-        <item id=mc         label="mc"         type=SHELL    title="Midnight Commander"    param="mc"               notes=" run Midnight Commander in its own window "/>
-        <item id=nano         label="nano"         type=SHELL    title="nano"    param="nano"               notes=" run nano in its own window "/>
-        <item id=mcedit         label="mcedit"         type=SHELL    title="Midnight Commander Editor"    param="mcedit"               notes=" run Midnight Commander Editor in its own window "/>
-        <item id=mcdiff         label="mcdiff"         type=SHELL    title="Midnight Commander Diff"    param="mcedit"               notes=" run Midnight Commander Diff in its own window "/>
+        <item id=mc         label="File Manager"         type=SHELL    title="Midnight Commander"    param="mc"               notes=" run Midnight Commander in its own window "/>
+        <item id=nano         label="Editor"         type=SHELL    title="nano"    param="nano"               notes=" run nano in its own window "/>
+        <item id=mcedit         label="Editor2"         type=SHELL    title="Midnight Commander Editor"    param="mcedit"               notes=" run Midnight Commander Editor in its own window "/>
+        <item id=mcdiff         label="Diff Viewer"         type=SHELL    title="Midnight Commander Diff"    param="mcedit"               notes=" run Midnight Commander Diff in its own window "/>
 
         <item splitter label="Image"/>
-        <item id=aewan         label="aewan"         type=SHELL    title="aewan"    param="aewan"               notes=" aewan animation editor "/>
+        <item id=aewan         label="Animation"         type=SHELL    title="aewan"    param="aewan"               notes=" aewan animation editor "/>
 
         <item splitter label="Office"/>
-        <item id=calcurse         label="calcurse"         type=SHELL    title="Calendar"    param="calcurse"               notes=" run calcurse in its own window "/>
-        <item id=mutt         label="mutt"         type=SHELL    title="mutt"    param="mutt"               notes="Email Client "/>
-        <item id=sc-im         label="sc-im"         type=SHELL    title="sc-im"    param="sc-im"               notes="Spreadsheet  "/>
+        <item id=calcurse         label="Calander"         type=SHELL    title="Calendar"    param="calcurse"               notes=" run calcurse in its own window "/>
+        <item id=mutt         label="Email"         type=SHELL    title="mutt"    param="mutt"               notes="Email Client "/>
+        <item id=sc-im         label="Spreadsheet"         type=SHELL    title="sc-im"    param="sc-im"               notes="Spreadsheet  "/>
 
         <item splitter label="Stats"/>
-        <item id=nmtui         label="neofetch"         type=SHELL    title="neofetch"    param="neofetch"               notes=" run neofetch in its own window "/>
+        <item id=nmtui         label="Device Stats"         type=SHELL    title="neofetch"    param="neofetch"               notes=" run neofetch in its own window "/>
 
         <item splitter label="Network"/>
-        <item id=nmtui         label="nmtui"         type=SHELL    title="nmtui"    param="nmtui"               notes=" run nmtui in its own window "/>
-        <item id=termshark         label="termshark"         type=SHELL    title="termshark"    param="termshark"               notes=" shark terminal "/>
-        <item id=wavemon         label="wavemon"         type=SHELL    title="wavemon"    param="wavemon"               notes=" Wireless device monitoring "/>
+        <item id=nmtui         label="Network Manager"         type=SHELL    title="nmtui"    param="nmtui"               notes=" run nmtui in its own window "/>
+        <item id=termshark         label="Wireshark"         type=SHELL    title="termshark"    param="termshark"               notes=" shark terminal "/>
+        <item id=wavemon         label="Wireless Monitor"         type=SHELL    title="wavemon"    param="wavemon"               notes=" Wireless device monitoring "/>
 
         <item splitter label="Memory"/>
-        <item id=htop         label="htop"         type=SHELL    title="htop"    param="htop"               notes=" run htop in its own window "/>            
+        <item id=htop         label="Mem and CPU Stats"         type=SHELL    title="htop"    param="htop"               notes=" run htop in its own window "/>            
 
         <item splitter label="Drive"/>
-        <item id=cfdisk         label="cfdisk"         type=SHELL    title="cfdisk"    param="cfdisk"               notes=" run cfdisk in its own window "/>
+        <item id=cfdisk         label="Disk Manager"         type=SHELL    title="cfdisk"    param="cfdisk"               notes=" run cfdisk in its own window "/>
 
                 <item splitter label="Games"/>
-        <item id=netris         label="netris"         type=SHELL    title="netris"    param="netris"               notes=" tetris game"/>
-        <item id=nsnake         label="nsnake"         type=SHELL    title="nsnake"    param="nsnake"               notes=" snake game "/>
+        <item id=netris         label="Tetris"         type=SHELL    title="netris"    param="netris"               notes=" tetris game"/>
+        <item id=nsnake         label="Snake"         type=SHELL    title="nsnake"    param="nsnake"               notes=" snake game "/>
 
         <item splitter label="Other"/>
         <item id=Tile label=Tile         type=tile title="Tiling Window Manager" cmd="h1:1(Term, Term)"    notes=" Tiling window manager with two terminals attached "/>
         <item id=Logs label=Logs         type=dtvt title="Logs"                  cmd="$0 -q -r term $0 -m" notes=" Log monitor "/>
 
-    </menu>
-</config>
-        <item splitter label="Apps"/>
-        <item id=term/>  <!-- title=id type=SHELL cmd=os_default_shell -->
-        <item id=lynx         label="lynx"         type=SHELL    title="lynx"    param="lynx"               notes=" Browser"/>
-        <item id=cmus         label="cmus"         type=SHELL    title="cmus"    param="cmus"               notes=" run cmus in its own window "/>
-        <item splitter label="Editors"/>
-        <item id=mc         label="mc"         type=SHELL    title="Midnight Commander"    param="mc"               notes=" run Midnight Commander in its own window "/>
-        <item id=nano         label="nano"         type=SHELL    title="nano"    param="nano"               notes=" run nano in its own window "/>
-        <item id=mcedit         label="mcedit"         type=SHELL    title="Midnight Commander Editor"    param="mcedit"               notes=" run Midnight Commander Editor in its own window "/>
-        <item id=mcdiff         label="mcdiff"         type=SHELL    title="Midnight Commander Diff"    param="mcedit"               notes=" run Midnight Commander Diff in its own window "/>
-        <item splitter label="Image"/>
-        <item id=aewan         label="aewan"         type=SHELL    title="aewan"    param="aewan"               notes=" aewan animation editor "/>
-        <item splitter label="Office"/>
-        <item id=calcurse         label="calcurse"         type=SHELL    title="Calendar"    param="calcurse"               notes=" run calcurse in its own window "/>
-        <item id=mutt         label="mutt"         type=SHELL    title="mutt"    param="mutt"               notes="Email Client "/>
-        <item id=sc-im         label="sc-im"         type=SHELL    title="sc-im"    param="sc-im"               notes="Spreadsheet  "/>
-        <item splitter label="Stats"/>
-        <item id=nmtui         label="neofetch"         type=SHELL    title="neofetch"    param="neofetch"               notes=" run neofetch in its own window "/>
-        <item splitter label="Network"/>
-        <item id=nmtui         label="nmtui"         type=SHELL    title="nmtui"    param="nmtui"               notes=" run nmtui in its own window "/>
-        <item id=termshark         label="termshark"         type=SHELL    title="termshark"    param="termshark"               notes=" shark terminal "/>
-        <item id=wavemon         label="wavemon"         type=SHELL    title="wavemon"    param="wavemon"               notes=" Wireless device monitoring "/>
-        <item splitter label="Memory"/>
-        <item id=htop         label="htop"         type=SHELL    title="htop"    param="htop"               notes=" run htop in its own window "/>            
-        <item splitter label="Drive"/>
-        <item id=cfdisk         label="cfdisk"         type=SHELL    title="cfdisk"    param="cfdisk"               notes=" run cfdisk in its own window "/>
-        <item splitter label="Games"/>
-        <item id=netris         label="netris"         type=SHELL    title="netris"    param="netris"               notes=" tetris game"/>
-        <item id=nsnake         label="nsnake"         type=SHELL    title="nsnake"    param="nsnake"               notes=" snake game "/>
-        <item splitter label="Other"/>
-        <item id=Tile label=Tile         type=tile title="Tiling Window Manager" cmd="h1:1(Term, Term)"    notes=" Tiling window manager with two terminals attached "/>
-        <item id=Logs label=Logs         type=dtvt title="Logs"                  cmd="$0 -q -r term $0 -m" notes=" Log monitor "/>
     </menu>
 </config>
