@@ -6,7 +6,7 @@ unzip vtm_linux_x86_64.zip
 tar -xvf  vtm_linux_x86_64.tar
 ./vtm -i
 sudo apt install -y eza gpm lynx cmus mc aewan calcurse mutt sc-im wavemon termshark nsnake
-sudo mkdir /etc/vtm
+#sudo mkdir /etc/vtm
 mkdir ~/.config/vtm/
 #sudo cp settings.xml /etc/vtm/
 cp settings.xml ~/.config/vtm/
