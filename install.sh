@@ -4,7 +4,7 @@ sudo apt install -y wget
 wget https://github.com/directvt/vtm/releases/latest/download/vtm_linux_x86_64.zip
 unzip vtm_linux_x86_64.zip
 tar -xvf  vtm_linux_x86_64.tar
-./vtm -i
+sudo ./vtm -i
 sudo apt install -y eza gpm lynx cmus mc aewan calcurse mutt sc-im wavemon termshark nsnake
 #sudo mkdir /etc/vtm
 mkdir ~/.config/vtm/
